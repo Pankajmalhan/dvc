@@ -3,7 +3,7 @@ import argparse
 import pandas as pd
 import os
 
-#get data from config file
+#get data from config file 
 def get_data(config_path):
     config = read_yaml(config_path)
 
